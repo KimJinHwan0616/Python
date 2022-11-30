@@ -4,16 +4,16 @@ name = '김진환'    # 첫번째 글자는 무조건 영어
 age = 99          # 두번째 글자부터 숫자, _ 사용 가능
 Name = 123        # 변수명은 대·소문자 구분
 ###################################################################
-## 자료형 ## : 숫자, 문자열, 리스트, 튜플, 사전, 집합, 불(True, False)
+## 자료형(Data Type): 숫자, 문자열, 리스트, 튜플, 사전, 집합, 불(True, False)
 
-# 확인
-# type(변수)
+# 확인 #
+# type(자료형)
 type(True)  # bool      논리
 type(age)   # int       정수
 type(1.23)  # float     실수
 type(name)  # str       문자
 
-# 변환 ★★
+# 변환 # ★★
 # 자료형(변환시킬 변수)
 int(1.23)       # 실수->정수
 str(Name)       # 정수->문자
@@ -69,6 +69,10 @@ str2 = "I don't care"      # 작은따옴표를 포함시킬 경우
 str3 = '''
 Life is too short ...      # 여러줄일 경우
 You need python        
+'''
+str4 = '''\
+Life is too short ...      # 여러줄일 경우
+You need python\        
 '''
 
 # \n    줄바꿈
