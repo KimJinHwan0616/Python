@@ -13,25 +13,16 @@ append(), remove(), pop(), ...
 소스 코드 -> 프로그램 -> 실행
 
 ####################
-# 조건문
-if (불)표현식1:
-   실행문
+범위 *(range)*
+range(정수), range(정수, 정수), range(정수, 정수, 정수)
+예)
 
-elif (불)표현식2:
-   실행문
-    ...
-
-else:
-   실행문
 ####################
-
 반복문(Loop Statement)
 - for
 # for 변수 in 이터러블
 #       실행문
 
-반복자: element, character, ...
- 
 
 - while
 - break
