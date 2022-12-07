@@ -1,3 +1,9 @@
+★ 자료형 - 개념 분류 따로 만들어서 용어 정리하기 ★
+비파괴적 함수(Non Destructive Function): 원본 변화X
+lower(), upper(), split(), ...
+
+파괴적 함수(Destructive Function): 원본 변화O
+append(), remove(), pop(), ...
 ###################
 프로그램(program): 미리(pro) 작성된 것(gram)
 
@@ -7,5 +13,28 @@
 소스 코드 -> 프로그램 -> 실행
 
 ####################
+# 조건문
+if (불)표현식1:
+   실행문
 
+elif (불)표현식2:
+   실행문
+    ...
 
+else:
+   실행문
+####################
+
+반복문(Loop Statement)
+- for
+# for 변수 in 이터러블
+#       실행문
+
+반복자: element, character, ...
+ 
+
+- while
+- break
+- continue
+
+리스트 내포(List Comprehension): 반복문의 요소를 삽입할 때, 한 줄로 작성하는 문법
